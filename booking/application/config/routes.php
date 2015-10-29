@@ -60,3 +60,5 @@ $route['translate_uri_dashes'] = TRUE;
 */
 $route['api/example/users/(:num)'] = 'api/example/users/id/$1'; // Example 4
 $route['api/example/users/(:num)(\.)([a-zA-Z0-9_-]+)(.*)'] = 'api/example/users/id/$1/format/$3$4'; // Example 8
+$route['botdetect/captcha_handler/index'] = 'botdetect/captcha_handler/index';
+$route['botdetect/captcha_resource/get/(:any)'] = 'botdetect/captcha_resource/get/$1';
